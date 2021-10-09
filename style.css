@@ -1,0 +1,109 @@
+
+
+.main{
+    border:3px solid blue;
+    max-width:1000px;
+    margin:30px auto;
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom:30px;
+    border-radius:10px;
+    background-image: linear-gradient(to right top, #00c3ff, #00d5ea, #00e0b8, #82e37a, #dcdc48);
+}
+.search{
+    background-color:blue;
+    padding:10px;
+    border-radius:5px;
+    margin:30px auto;
+    text-align:center;
+    color:white;
+    width:70%;
+}
+
+.events{
+   padding:15px 7px;
+    width:70%;
+    margin:30px auto 0px auto;
+    border:3px solid crimson;
+    border-style:groove;
+    background-color:white;
+    color: crimson;
+    border-radius:5px;
+    height:auto;
+    box-shadow: 2px 10px 13px -1px rgba(137,121,165,0.75);
+    -webkit-box-shadow: 2px 10px 13px -1px rgba(137,121,165,0.75);
+    -moz-box-shadow: 2px 10px 13px -1px rgba(137,121,165,0.75);
+}
+h4{
+    text-align:center;
+}
+.detail{
+    
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.detail img{
+    height:100px;
+    width:40%;
+    
+}
+.info{
+   
+    width:50%;
+    color:rgb(26, 25, 25);
+    font-weight:500;
+    
+}
+.info > p{
+    margin-bottom:5px;
+}
+#book,#sold{
+    background-color:crimson;
+    color:white;
+    border-color:crimson;
+    padding:3px;
+    border-radius:3px;
+    margin-top:10px;
+    font-weight:bold;
+}
+#sold{
+    background-color:rgb(226, 166, 178);
+    color:rgb(133, 27, 27);
+    border-color:rgb(226, 166, 178);
+    font-weight:bold;
+}
+
+@media(min-width:450px){
+    .events{
+       width:60%;
+         
+     }
+}
+@media(min-width:500px){
+    .events{
+       width:50%;
+         
+     }
+}
+@media(min-width:576px){
+    .events{
+       width:90%;
+         
+     }
+}
+@media(min-width:768px){
+    .events{
+       width:70%;
+         
+     }
+     
+}
+@media(min-width:992px){
+    .events{
+       width:100%;
+         
+     }
+}
